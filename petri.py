@@ -4,11 +4,11 @@ class Place:
 
 class Arc:
     def __init__(self,place,amt=1):
-        ##
+        """
         ## an arc in petri_net, could be out going or in going.
         ## place: a place attached to it.
         ## amt  : amount of tokens required for a transaction.
-        ##
+        """
         self.place =  place
         self.amt   =  amt
 
